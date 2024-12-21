@@ -1,0 +1,14 @@
+{
+    "name": "FoxCultGames.UniqueScriptableObjects.Editor",
+    "rootNamespace": "FoxCultGames.UniqueScriptableObjects",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
