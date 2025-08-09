@@ -1,7 +1,9 @@
 {
     "name": "FoxCultGames.UniqueScriptableObjects.Editor",
     "rootNamespace": "FoxCultGames.UniqueScriptableObjects",
-    "references": [],
+    "references": [
+        "GUID:4a31c63beb61b704bb0da2d4383913a0"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

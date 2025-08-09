@@ -2,6 +2,7 @@ namespace FoxCultGames.UniqueScriptableObjects.Editor
 {
     using System.Linq;
     using UnityEditor;
+    using UniqueScriptableObjects;
 
     public static class UniqueScriptableObjectConstantsGenerator
     {
