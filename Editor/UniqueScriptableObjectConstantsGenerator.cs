@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 namespace FoxCultGames.UniqueScriptableObjects.Editor
 {
     using System.Linq;
@@ -51,3 +52,4 @@ namespace FoxCultGames.UniqueScriptableObjects.Editor
             "\t{";
     }
 }
+#endif
