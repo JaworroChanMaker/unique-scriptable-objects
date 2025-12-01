@@ -22,12 +22,19 @@ namespace FoxCultGames.UniqueScriptableObjects.Editor
             
             foreach (var entry in grouping)
             {
-                builder.AppendLine($"\t\tpublic static class {entry.Key.Name}");
+                builder.AppendLine($"\n\t\tpublic static class {entry.Key.Name}");
                 builder.AppendLine("\t\t{");
                 
                 foreach (var asset in entry)
                 {
                     builder.AppendLine($"\t\t\tpublic static readonly Guid {asset.name} = Guid.Parse(\"{asset.Guid}\");");
+                }
+
+                builder.AppendLine();
+
+                foreach (var asset in entry)
+                {
+                    builder.AppendLine($"\t\t\tpublic const string {asset.name}Value = \"{asset.Guid}\";");
                 }
                 
                 builder.AppendLine("\t\t}");
